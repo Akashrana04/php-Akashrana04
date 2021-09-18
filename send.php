@@ -21,13 +21,13 @@ $mail->SMTPDebug  = 0;
 $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "ssl";
 $mail->Port       = 465;
-$mail->Host       = "smtp.mail.yahoo.com";
-$mail->Username   = "debadutta_panda90@yahoo.com";
-$mail->Password   = "srsnhsyuduhsabir";
-    $mail->setFrom('debadutta_panda90@yahoo.com', 'rtlearn');
+$mail->Host       = "smtp.gmail.com";
+$mail->Username   = "akashranam48@gmail.com";
+$mail->Password   = "Priyanka@5";
+    $mail->setFrom('akashranam48@gmail.com', 'AKASH');
       //Add a recipient
     $mail->addAddress("{$to}");              //Name is optional
-    $mail->addReplyTo('debadutta_panda90@yahoo.com', 'rtlearn');
+    $mail->addReplyTo('akashranam48@gmail.com', 'AKASH');
 
     //Attachments
    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
