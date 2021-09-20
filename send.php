@@ -29,6 +29,7 @@ $mail->Password   = "srsnhsyuduhsabir";
     $mail->addReplyTo('debadutta_panda90@yahoo.com', 'rtlearn');
 
     //Attachments
+    /////////////////////////////////////////
    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
     //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
