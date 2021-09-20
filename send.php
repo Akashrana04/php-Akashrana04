@@ -1,4 +1,3 @@
-
 <?php
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
@@ -24,10 +23,10 @@ $mail->Port       = 465;
 $mail->Host       = "smtp.mail.yahoo.com";
 $mail->Username   = "debadutta_panda90@yahoo.com";
 $mail->Password   = "srsnhsyuduhsabir";
-    $mail->setFrom('akashranam48@gmail.com', 'AKASH');
+    $mail->setFrom('debadutta_panda90@yahoo.com', 'rtlearn');
       //Add a recipient
     $mail->addAddress("{$to}");              //Name is optional
-    $mail->addReplyTo('akashranam48@gmail.com', 'AKASH');
+    $mail->addReplyTo('debadutta_panda90@yahoo.com', 'rtlearn');
 
     //Attachments
    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
